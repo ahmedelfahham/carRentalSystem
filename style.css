@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px;
+    background-image: linear-gradient(rgb(233, 78, 233), rgb(0, 195, 255));
+    /*/background: linear-gradient(135deg, #7db5da, #c448f5);*/
+  }
+
+  input[type=text] {
+    width: 600%;
+    height: 30PX;
+  }
+  input[type=password] {
+    width: 600%;
+    height: 30PX;
+  }
+
+  #xx {
+    margin-top: 1px;
+    margin-right: 2px;
+    position:absolute;
+    top:10;
+    right:10;
+}
+
+  .container{
+    max-width: 700px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 30px;
+
+    background-color: rgb(234, 234, 240);
+    border-radius: 5px;
+    box-shadow: 0 30px 100px rgba(41, 10, 10, 0.774)
+  }
+  
+  form .input_container{
+    width: 60px;
+  }
+  
+  form .button{
+    height: 45px;
+    margin: 6px;
+  }
+
+  form .button_up{
+    height: 45px;
+    margin: 6px;
+  }
+
+  form .button_car{
+    height: 45px;
+    margin: 6px;
+    margin-right: 50%;
+  }
+  
+
+  form .button input{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+
+  form .button_up input{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #2e30aa);
+  }
+
+  form .button_car input{
+    height: 100%;
+    width: 60%;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #97aa2e);
+  }
+
+  .btn-group button {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    border: 1px solid rgb(152, 76, 175); /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+  }
+
+  
+
+  
